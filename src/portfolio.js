@@ -115,16 +115,16 @@ const educationInfo = {
   schools: [
     {
       schoolName: "State University of New York at Buffalo",
-      logo: require("./assets/images/ub.png"),
+      logo: require("./assets/images/ub.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - December 2023",
       descBullets: [
         "Information Retrieval",
         "Analysis of Algorithms",
         "Pattern Recognition",
-        "Project Management",
+        "Project Management"
       ]
-    },
+    }
   ]
 };
 
@@ -161,7 +161,7 @@ const workExperiences = {
     {
       role: "Software Engineering Intern",
       company: "Accessium Group Inc.",
-      companylogo: require("./assets/images/accessium.png"),
+      companylogo: require("./assets/images/accessium.jpeg"),
       date: "June 2023 – Present",
       desc: " Implemented a robust Python server-client architecture, allowing clients to effortlessly establish connections, \
       transmit patient demographics securely into Corepoint for further integration with HL7 formatting. Optimized Corepoint data \
@@ -171,15 +171,13 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Larsen & Toubro Infotech",
-      companylogo: require("./assets/images/LTI_Lets_solve.png"),
+      companylogo: require("./assets/images/lti.jpeg"),
       date: "November 2020 – July 2022",
       descBullets: [
         ": Pioneered end-to-end design and development of IT Web Portal for seamless enterprise experience offering a personalized and multi-persona experience, using Angular, JavaScript, SQL enhancing employee experience by 20%.",
         "Automation and streamlining of data import and visualization processes for Portland General Electronics by integrating NOZOMI Intrusion Detection System with through REST API and Angular"
       ]
-    },
-   
-    
+    }
   ]
 };
 
